@@ -22,6 +22,11 @@ header h1 {
   margin: 0;
 }
 
+header p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
 /* Mensagem de destaque */
 .banner {
   background-color: #007acc;
@@ -38,15 +43,16 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 30px;
   gap: 20px;
+  padding: 40px 20px;
 }
 
 /* Card individual */
 .card {
   background-color: #1c1c1c;
   color: white;
-  width: 280px;
+  flex: 1 1 280px;
+  max-width: 320px;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -75,6 +81,9 @@ header h1 {
   font-weight: bold;
   border-radius: 6px;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
   transition: background-color 0.2s ease;
 }
 
@@ -101,6 +110,12 @@ footer {
 
   .card {
     width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .card-button {
+    font-size: 1.2em;
+    padding: 12px;
   }
 
   header h1 {
