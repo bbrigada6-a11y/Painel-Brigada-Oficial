@@ -136,3 +136,6 @@ footer {
 .card-button {
   color: white; /* garante que o texto do botão fique branco */
 }
+.card {
+  color: white; /* força o texto interno a ser branco */
+}
